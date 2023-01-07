@@ -3,11 +3,9 @@ from setuptools import setup
 setup(
     name='LoadsDB',
     version='1.0.0',
-    packages=[''],
+    packages=['json', "os", "sys"],
     include_package_data=True,
-    install_requires=[
-        'sys'
-    ],
+    install_requires=[],
     author='Loads',
     author_email='contact.loadsx@gmail.com',
     description='Working database system for python!',
