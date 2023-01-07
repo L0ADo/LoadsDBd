@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='LoadsDB',
     version='1.0.0',
-    packages=['json', "os", "sys"],
+    packages=["mainm"],
     include_package_data=True,
     install_requires=[],
     author='Loads',
